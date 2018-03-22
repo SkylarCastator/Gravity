@@ -1,0 +1,31 @@
+Under Water Effect 1.0
+
+========================
+
+This system brings various visual effects that make a similar effect to images underwater.
+
+To use this system, simply associate the code 'UnderWaterEffect' with your player's camera 
+and associate the corresponding items with each variable of the same.
+
+Each variable has a description of its use, just rest the mouse on it.
+
+The area in which the submersion effect should occur must have a collider with the 'isTrigger'
+option checked. This collider must also have a specific tag in order to distinguish these 
+areas from the others in the scene. The tag for this collider must be associated with the 
+script in the 'WaterTag' variable, in order for the script to recognize the collider.
+
+The system has several effects, such as:
+
+- Distortion of the image
+- Image coloring under water
+- Droplet effects on the screen
+- Image haze under water
+- Limitation of vision under water
+
+The system has some variables, allowing to regulate how perceptible these effects will be.
+
+The example scene has three cameras, with different settings, with the intention of 
+demonstrating how the effect adapts to different waters.
+
+To test the scene, simply start it and follow the button commands, 'next' to move to the next
+camera, 'Up' and 'Down' to move up and down with the camera, to see how the submersion effect works .
